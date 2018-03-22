@@ -208,7 +208,7 @@ div.btn-group a.btn.js-scroll-trigger { border-radius: 0; }
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, .1);
+  background-color: rgba(33, 37, 41, .3);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -379,12 +379,14 @@ footer.footer {
 @media (min-width: 768px) {
   .project-box .project-box-caption .project-box-caption-content .project-category { font-size: 16px; }
   .project-box .project-box-caption .project-box-caption-content .project-name { font-size: 22px; }
+  .project-header { font-size: 2rem; }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 425px) {
   .profile-pic { margin-bottom: 1rem; }
   .header h1 { font-size: 2rem; }
   .header h3 { font-size: 1rem; }
+  .project-header { font-size: 1.3rem; }
 }
 
 
